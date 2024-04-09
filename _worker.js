@@ -6,7 +6,7 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
 	'icook.tw:2053#优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+	'cloudflare.cfgo.cc:2053#优选官方线路',
 	'185.221.160.203:443#电信优选IP',
 	'cloudflare.cfgo.cc:2053#优选域名',
 	'cf.090227.xyz:2087#优选域名',
@@ -16,6 +16,8 @@ let addresses = [
 let addressesapi = [
 	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt',
 	'https://addressesapi.090227.xyz/CloudFlareYes',
+	'https://addressesapi.090227.xyz/ct',
+	'https://ipdb.api.030101.xyz/?type=bestcf&country=true',
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
