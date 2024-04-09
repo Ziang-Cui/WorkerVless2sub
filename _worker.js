@@ -8,6 +8,8 @@ let addresses = [
 	'icook.tw:2053#优选域名',
 	'cloudflare.cfgo.cc#优选官方线路',
 	'185.221.160.203:443#电信优选IP',
+	'cloudflare.cfgo.cc:2053#优选域名',
+	'cf.090227.xyz#优选域名',
 ];
 
 // 设置优选地址api接口
